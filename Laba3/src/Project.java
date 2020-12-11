@@ -2,21 +2,21 @@
 public class Project {
 	public static void print(String how) {
 		if (how=="SHORT") {
-			System.out.print("Проект ");
+			System.out.print("РџСЂРѕРµРєС‚ ");
 		}
 		if (how=="THIS") {
-			System.out.print("По этому проектy ");
+			System.out.print("РџРѕ СЌС‚РѕРјСѓ РїСЂРѕРµРєС‚y ");
 		}
 		if (how=="LONG") {
-			System.out.print("архитектурный проект оборудования под жилье ");
+			System.out.print("Р°СЂС…РёС‚РµРєС‚СѓСЂРЅС‹Р№ РїСЂРѕРµРєС‚ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ РїРѕРґ Р¶РёР»СЊРµ ");
 		}
 	}
 	public static void improve(String how) {
 		if (how=="FAST") {
-			System.out.print("Проект быстро обрастал новыми деталями ");
+			System.out.print("РџСЂРѕРµРєС‚ Р±С‹СЃС‚СЂРѕ РѕР±СЂР°СЃС‚Р°Р» РЅРѕРІС‹РјРё РґРµС‚Р°Р»СЏРјРё ");
 		}
 		if (how=="SLOW") {
-			System.out.print("Проект медленно обрастал новыми деталями ");
+			System.out.print("РџСЂРѕРµРєС‚ РјРµРґР»РµРЅРЅРѕ РѕР±СЂР°СЃС‚Р°Р» РЅРѕРІС‹РјРё РґРµС‚Р°Р»СЏРјРё ");
 		}
 		
 	}
