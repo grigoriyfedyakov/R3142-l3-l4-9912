@@ -41,8 +41,5 @@ public class Sluice extends Innovations {
 			break;		
 		}
 	}
-	public void print() {
-		System.out.print(getName()+" ");
-	}
 
 }
