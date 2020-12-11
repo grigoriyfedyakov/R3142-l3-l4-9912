@@ -41,8 +41,5 @@ public class SolarBatteries extends Innovations {
 			break;		
 		}
 	}
-	public void print() {
-		System.out.print(getName()+" ");
-	}
-
+	
 }
