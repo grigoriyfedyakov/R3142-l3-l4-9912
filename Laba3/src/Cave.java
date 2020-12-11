@@ -7,9 +7,6 @@ public class Cave  {
 	public String getName() {
 		return name;
 	}
-	public void print() {
-    	System.out.print(getName()+" ");
-    }
 	public void fill() {
 		System.out.print(getName()+" заполнялась воздухом");
 	}
