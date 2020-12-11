@@ -13,7 +13,4 @@ public class RocketPart {
 	public void whereTake() {
 		System.out.print("где найти "+getName()+" ");
 	}
-	public void print() {
-		System.out.print(getName());
-	}
 }
