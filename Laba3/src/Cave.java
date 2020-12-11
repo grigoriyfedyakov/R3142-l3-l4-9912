@@ -11,7 +11,6 @@ public class Cave  {
     	System.out.print(getName()+" ");
     }
 	public void fill() {
-		System.out.print(getName()+" çàïîëíÿëàñü âîçäóõîì");
+		System.out.print(getName()+" заполнялась воздухом");
 	}
 }
-
