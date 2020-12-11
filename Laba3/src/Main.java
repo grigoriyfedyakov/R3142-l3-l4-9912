@@ -1,78 +1,78 @@
 
 public class Main {
 	public static void main(String[] args) {
-		Human kubik = new Human("Кубик", Mest.он);
-		Human vintikandshpuntik = new Human("Винтик и Шпунтик", Mest.они);
-		Moon moon = new Moon("Луна");
-		Cave cave = new Cave("пещера");
-		Cave othercave = new Cave("другая пещера");
-		Stone granit = new Stone("гранит");
-		Stone otherstone = new Stone("какой-нибудь другой красивый камень");
-		Entrance entrance = new Entrance("вход в пещеру");
-		WallsFloor wallsfloor = new WallsFloor("Стены и потолок пещеры");
-		Inners inners = new Inners("Внутренность пещеры");
-		Rocket rocket = new Rocket("ракета", Mest.она);
-		RocketPart wheels = new RocketPart("колеса");
-		RocketPart tale = new RocketPart("хвост");
-		Trubolet trubolet = new Trubolet("реактивный роликовый труболет");
-		Wall wall = new Wall("воздухонепроницаемая стенка", Mest.она);
-		Door door = new Door("герметически закрывающаяся дверь", Mest.она);
-		Sluice sluice = new Sluice("шлюзовое устройство", Mest.оно);
-		SolarBatteries solarbatteries = new SolarBatteries("солнечные батареи", Mest.они);
-		Electricity electricity = new Electricity("электроэнергия");
+		Human kubik = new Human("РљСѓР±РёРє", Mest.РѕРЅ);
+		Human vintikandshpuntik = new Human("Р’РёРЅС‚РёРє Рё РЁРїСѓРЅС‚РёРє", Mest.РѕРЅРё);
+		Moon moon = new Moon("Р›СѓРЅР°");
+		Cave cave = new Cave("РїРµС‰РµСЂР°");
+		Cave othercave = new Cave("РґСЂСѓРіР°СЏ РїРµС‰РµСЂР°");
+		Stone granit = new Stone("РіСЂР°РЅРёС‚");
+		Stone otherstone = new Stone("РєР°РєРѕР№-РЅРёР±СѓРґСЊ РґСЂСѓРіРѕР№ РєСЂР°СЃРёРІС‹Р№ РєР°РјРµРЅСЊ");
+		Entrance entrance = new Entrance("РІС…РѕРґ РІ РїРµС‰РµСЂСѓ");
+		WallsFloor wallsfloor = new WallsFloor("РЎС‚РµРЅС‹ Рё РїРѕС‚РѕР»РѕРє РїРµС‰РµСЂС‹");
+		Inners inners = new Inners("Р’РЅСѓС‚СЂРµРЅРЅРѕСЃС‚СЊ РїРµС‰РµСЂС‹");
+		Rocket rocket = new Rocket("СЂР°РєРµС‚Р°", Mest.РѕРЅР°);
+		RocketPart wheels = new RocketPart("РєРѕР»РµСЃР°");
+		RocketPart tale = new RocketPart("С…РІРѕСЃС‚");
+		Trubolet trubolet = new Trubolet("СЂРµР°РєС‚РёРІРЅС‹Р№ СЂРѕР»РёРєРѕРІС‹Р№ С‚СЂСѓР±РѕР»РµС‚");
+		Wall wall = new Wall("РІРѕР·РґСѓС…РѕРЅРµРїСЂРѕРЅРёС†Р°РµРјР°СЏ СЃС‚РµРЅРєР°", Mest.РѕРЅР°);
+		Door door = new Door("РіРµСЂРјРµС‚РёС‡РµСЃРєРё Р·Р°РєСЂС‹РІР°СЋС‰Р°СЏСЃСЏ РґРІРµСЂСЊ", Mest.РѕРЅР°);
+		Sluice sluice = new Sluice("С€Р»СЋР·РѕРІРѕРµ СѓСЃС‚СЂРѕР№СЃС‚РІРѕ", Mest.РѕРЅРѕ);
+		SolarBatteries solarbatteries = new SolarBatteries("СЃРѕР»РЅРµС‡РЅС‹Рµ Р±Р°С‚Р°СЂРµРё", Mest.РѕРЅРё);
+		Electricity electricity = new Electricity("СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёСЏ");
 		
 		kubik.print();
 		kubik.think("FAST"); 
-		System.out.print("и ");
+		System.out.print("Рё ");
 		kubik.startCreate();
 		Project.print("LONG");
 		cave.print();
-		moon.print(Predlog.на);
+		moon.print(Predlog.РЅР°);
 		System.out.println("");
 		
 		Project.print("THIS");
 		entrance.found();
 		wall.print();
-		System.out.print("в которой ");
+		System.out.print("РІ РєРѕС‚РѕСЂРѕР№ ");
 		door.place();
-		System.out.print(" и ");
+		System.out.print(" Рё ");
 		sluice.place();
-		System.out.println(" после чего ");
+		System.out.println(" РїРѕСЃР»Рµ С‡РµРіРѕ ");
 		cave.fill();		
 		System.out.println("");
 		
 		wallsfloor.facing();
 		granit.print();
-		System.out.print("или ");
+		System.out.print("РёР»Рё ");
 		otherstone.print();
 		System.out.println("");
 		
-		System.out.print("Рядом с ");
+		System.out.print("Р СЏРґРѕРј СЃ ");
 		cave.print();
-		moon.cover(Predlog.на);
+		moon.cover(Predlog.РЅР°);
 		solarbatteries.place();
 		solarbatteries.produce();
 		electricity.print();
 		electricity.light();
-		System.out.print("и ");
+		System.out.print("Рё ");
 		electricity.heat();
 		cave.print();
 		System.out.println("");
 		
-		inners.convert("SLow");
+		inners.convert("SLOW");
 		System.out.println(": ");
-		Room.appear("комнаты", Mest.они);
-		Room.appear("коридоры", Mest.они);
-		Room.appear("залы", Mest.они);
-		Room.appear("подвалы", Mest.они);
-		Room.appear("лифты", Mest.они);
-		Room.appear("телефонные будки", Mest.они);
-		Room.appear("закрома", Mest.они);
-		Room.appear("склады", Mest.они);
-		Room.appear("фотолаборатории", Mest.они);
-		Room.appear("научно-исследовательские институты", Mest.они);
-		Room.appear("подлунная железная дорога", Mest.она);
-		System.out.print(" для связи с ");
+		Room.appear("РєРѕРјРЅР°С‚С‹", Mest.РѕРЅРё);
+		Room.appear("РєРѕСЂРёРґРѕСЂС‹", Mest.РѕРЅРё);
+		Room.appear("Р·Р°Р»С‹", Mest.РѕРЅРё);
+		Room.appear("РїРѕРґРІР°Р»С‹", Mest.РѕРЅРё);
+		Room.appear("Р»РёС„С‚С‹", Mest.РѕРЅРё);
+		Room.appear("С‚РµР»РµС„РѕРЅРЅС‹Рµ Р±СѓРґРєРё", Mest.РѕРЅРё);
+		Room.appear("Р·Р°РєСЂРѕРјР°", Mest.РѕРЅРё);
+		Room.appear("СЃРєР»Р°РґС‹", Mest.РѕРЅРё);
+		Room.appear("С„РѕС‚РѕР»Р°Р±РѕСЂР°С‚РѕСЂРёРё", Mest.РѕРЅРё);
+		Room.appear("РЅР°СѓС‡РЅРѕ-РёСЃСЃР»РµРґРѕРІР°С‚РµР»СЊСЃРєРёРµ РёРЅСЃС‚РёС‚СѓС‚С‹", Mest.РѕРЅРё);
+		Room.appear("РїРѕРґР»СѓРЅРЅР°СЏ Р¶РµР»РµР·РЅР°СЏ РґРѕСЂРѕРіР°", Mest.РѕРЅР°);
+		System.out.print(" РґР»СЏ СЃРІСЏР·Рё СЃ ");
 		othercave.print();
 		System.out.println("");
 		
@@ -81,32 +81,32 @@ public class Main {
 		
 		vintikandshpuntik.print();
 		vintikandshpuntik.thinkDeliever();
-		System.out.print("в ");
+		System.out.print("РІ ");
 		cave.print();
 		rocket.print();
-		System.out.print("и ");
+		System.out.print("Рё ");
 		vintikandshpuntik.thinkLaunch();
 		rocket.print();
-		moon.print(Predlog.внутрь);
+		moon.print(Predlog.РІРЅСѓС‚СЂСЊ);
 		System.out.println("");
 		
 		vintikandshpuntik.print();
 		vintikandshpuntik.finishedThink("LONG");
 		tale.attach();
-		System.out.print(" и ");
+		System.out.print(" Рё ");
 		wheels.attach();
-		System.out.print(" к ");
+		System.out.print(" Рє ");
 		rocket.print();
-		System.out.print("чтобы ");
+		System.out.print("С‡С‚РѕР±С‹ ");
 		rocket.freeRide();
-		moon.print(Predlog.по);
+		moon.print(Predlog.РїРѕ);
 		trubolet.like();
 		System.out.println("");
 		
 		vintikandshpuntik.notThink("ONLY");
-		System.out.print(" это ");
+		System.out.print(" СЌС‚Рѕ ");
 		wheels.whereTake();
-		moon.print(Predlog.на);
+		moon.print(Predlog.РЅР°);
 	}
 
 }
