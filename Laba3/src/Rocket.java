@@ -9,9 +9,6 @@ public class Rocket implements Rider {
 	public String getName() {
 		return name;
 	}
-	public void print() {
-    	System.out.print(getName()+" ");
-    }
 	public void freeRide() {
 		switch(mest) {
 		case он:
