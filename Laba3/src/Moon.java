@@ -9,27 +9,27 @@ public class Moon {
 	}
     public void print(Predlog predlog) {
     	switch (predlog) {
-    	case на:
-    		System.out.print(predlog+" Луне ");
+    	case РЅР°:
+    		System.out.print(predlog+" Р›СѓРЅРµ ");
     		break;
-    	case внутрь:
-    		System.out.print(predlog+" Луны ");
+    	case РІРЅСѓС‚СЂСЊ:
+    		System.out.print(predlog+" Р›СѓРЅС‹ ");
     		break;
-    	case по:
-    		System.out.print(predlog+" Луне ");
+    	case РїРѕ:
+    		System.out.print(predlog+" Р›СѓРЅРµ ");
     		break;
     	}
     }
     public void cover(Predlog predlog) {
     	switch (predlog) {
-    	case на:
-    		System.out.print(predlog+" лунной поверхности ");
+    	case РЅР°:
+    		System.out.print(predlog+" Р»СѓРЅРЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё ");
     		break;
-    	case внутрь:
-    		System.out.print(predlog+" лунной поверхности ");
+    	case РІРЅСѓС‚СЂСЊ:
+    		System.out.print(predlog+" Р»СѓРЅРЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё ");
     		break;
-    	case по:
-    		System.out.print(predlog+" лунной поверхности ");
+    	case РїРѕ:
+    		System.out.print(predlog+" Р»СѓРЅРЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё ");
     		break;
     	}
     }
