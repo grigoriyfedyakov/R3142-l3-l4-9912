@@ -10,8 +10,8 @@ public class Inners extends Cave{
 	}
 	public void convert(String how) {
 		if (how=="SLOW") {
-			System.out.print(getName()+" постепенно ");
+			System.out.print(getName()+" РїРѕСЃС‚РµРїРµРЅРЅРѕ ");
 		}
-		System.out.print("переоборудовалaсь ");
+		System.out.print("РїРµСЂРµРѕР±РѕСЂСѓРґРѕРІР°Р»aСЃСЊ ");
 	}
 }
