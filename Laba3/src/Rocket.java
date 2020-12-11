@@ -14,17 +14,17 @@ public class Rocket implements Rider {
     }
 	public void freeRide() {
 		switch(mest) {
-		case он:
-			System.out.print(mest + " мог свободно кататься ");
+		case РѕРЅ:
+			System.out.print(mest + " РјРѕРі СЃРІРѕР±РѕРґРЅРѕ РєР°С‚Р°С‚СЊСЃСЏ ");
 			break;
-		case она:
-			System.out.print(mest + " могла свободно кататься ");
+		case РѕРЅР°:
+			System.out.print(mest + " РјРѕРіР»Р° СЃРІРѕР±РѕРґРЅРѕ РєР°С‚Р°С‚СЊСЃСЏ ");
 			break;
-		case они:
-			System.out.print(mest + " могли свободно кататься ");
+		case РѕРЅРё:
+			System.out.print(mest + " РјРѕРіР»Рё СЃРІРѕР±РѕРґРЅРѕ РєР°С‚Р°С‚СЊСЃСЏ ");
 			break;
-		case оно:
-			System.out.print(mest + " могло свободно кататься ");
+		case РѕРЅРѕ:
+			System.out.print(mest + " РјРѕРіР»Рѕ СЃРІРѕР±РѕРґРЅРѕ РєР°С‚Р°С‚СЊСЃСЏ ");
 			break;		
 		}
 	}
