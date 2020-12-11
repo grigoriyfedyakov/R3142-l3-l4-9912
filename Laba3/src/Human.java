@@ -15,84 +15,84 @@ public class Human implements Thinker {
 		System.out.print(getName()+" ");
 	}
 	public void startCreate() {
-		System.out.print("начал создавать ");
+		System.out.print("РЅР°С‡Р°Р» СЃРѕР·РґР°РІР°С‚СЊ ");
 	}
 	public void think(String how) {
 		if (how=="FAST") {
-			System.out.print("недолго ");
+			System.out.print("РЅРµРґРѕР»РіРѕ ");
 		}
 		switch(mest) {
-		case он:
-			System.out.print("думал ");
+		case РѕРЅ:
+			System.out.print("РґСѓРјР°Р» ");
 			break;
-		case она:
-			System.out.print("думала ");
+		case РѕРЅР°:
+			System.out.print("РґСѓРјР°Р»Р° ");
 			break;
-		case они:
-			System.out.print("думали ");
+		case РѕРЅРё:
+			System.out.print("РґСѓРјР°Р»Рё ");
 			break;
-		case оно:
-			System.out.print("думал ");
+		case РѕРЅРѕ:
+			System.out.print("РґСѓРјР°Р» ");
 			break;
 		}
 	}
 	public void thinkDeliever() {
 		switch(mest) {
-		case он:
-			System.out.print("принялcя думать, как доставить ");
+		case РѕРЅ:
+			System.out.print("РїСЂРёРЅСЏР»cСЏ РґСѓРјР°С‚СЊ, РєР°Рє РґРѕСЃС‚Р°РІРёС‚СЊ ");
 			break;
-		case она:
-			System.out.print("принялась думать, как доставить ");
+		case РѕРЅР°:
+			System.out.print("РїСЂРёРЅСЏР»Р°СЃСЊ РґСѓРјР°С‚СЊ, РєР°Рє РґРѕСЃС‚Р°РІРёС‚СЊ ");
 			break;
-		case они:
-			System.out.print("принялись думать, как доставить ");
+		case РѕРЅРё:
+			System.out.print("РїСЂРёРЅСЏР»РёСЃСЊ РґСѓРјР°С‚СЊ, РєР°Рє РґРѕСЃС‚Р°РІРёС‚СЊ ");
 			break;
-		case оно:
-			System.out.print("принялось думать, как доставить ");
+		case РѕРЅРѕ:
+			System.out.print("РїСЂРёРЅСЏР»РѕСЃСЊ РґСѓРјР°С‚СЊ, РєР°Рє РґРѕСЃС‚Р°РІРёС‚СЊ ");
 			break;
 		}
 		
 	}
 	public void thinkLaunch() {
 		switch(mest) {
-		case он:
-			System.out.print("принялcя думать, как запустить ");
+		case РѕРЅ:
+			System.out.print("РїСЂРёРЅСЏР»cСЏ РґСѓРјР°С‚СЊ, РєР°Рє Р·Р°РїСѓСЃС‚РёС‚СЊ ");
 			break;
-		case она:
-			System.out.print("принялась думать, как запустить ");
+		case РѕРЅР°:
+			System.out.print("РїСЂРёРЅСЏР»Р°СЃСЊ РґСѓРјР°С‚СЊ, РєР°Рє Р·Р°РїСѓСЃС‚РёС‚СЊ ");
 			break;
-		case они:
-			System.out.print("принялись думать, как запустить ");
+		case РѕРЅРё:
+			System.out.print("РїСЂРёРЅСЏР»РёСЃСЊ РґСѓРјР°С‚СЊ, РєР°Рє Р·Р°РїСѓСЃС‚РёС‚СЊ ");
 			break;
-		case оно:
-			System.out.print("принялось думать, как запустить ");
+		case РѕРЅРѕ:
+			System.out.print("РїСЂРёРЅСЏР»РѕСЃСЊ РґСѓРјР°С‚СЊ, РєР°Рє Р·Р°РїСѓСЃС‚РёС‚СЊ ");
 			break;
 		}
 	}
 	public void finishedThink(String How) {
 		if (How=="LONG") {
-			System.out.print("в результате долгих обдумываний ");
+			System.out.print("РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РґРѕР»РіРёС… РѕР±РґСѓРјС‹РІР°РЅРёР№ ");
 		}
 		switch(mest) {
-		case он:
-			System.out.print("додумался ");
+		case РѕРЅ:
+			System.out.print("РґРѕРґСѓРјР°Р»СЃСЏ ");
 			break;
-		case она:
-			System.out.print("додумалась ");
+		case РѕРЅР°:
+			System.out.print("РґРѕРґСѓРјР°Р»Р°СЃСЊ ");
 			break;
-		case они:
-			System.out.print("додумались ");
+		case РѕРЅРё:
+			System.out.print("РґРѕРґСѓРјР°Р»РёСЃСЊ ");
 			break;
-		case оно:
-			System.out.print("додумалось ");
+		case РѕРЅРѕ:
+			System.out.print("РґРѕРґСѓРјР°Р»РѕСЃСЊ ");
 			break;
 		}
 	}
 	public void notThink(String how) {
 		if (how=="ONLY") {
-			System.out.print("Единственное, до чего ");
+			System.out.print("Р•РґРёРЅСЃС‚РІРµРЅРЅРѕРµ, РґРѕ С‡РµРіРѕ ");
 		}
-		System.out.print("не смогли додуматься " + getName());
+		System.out.print("РЅРµ СЃРјРѕРіР»Рё РґРѕРґСѓРјР°С‚СЊСЃСЏ " + getName());
 	}
 	public boolean equals(Object o) {
 		if (this == o) return true;
