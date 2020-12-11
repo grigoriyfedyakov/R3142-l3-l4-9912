@@ -7,9 +7,6 @@ public class Electricity {
 	public String getName() {
 		return name;
 	}
-	public void print() {
-		System.out.print(getName()+" ");
-	}
 	public void light() {
 		System.out.print("для освещения ");
 	}
