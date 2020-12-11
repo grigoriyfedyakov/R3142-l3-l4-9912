@@ -10,10 +10,6 @@ public class Human implements Thinker {
 	public String getName() {
 		return name;
 	}
-
-	public void print() {
-		System.out.print(getName()+" ");
-	}
 	public void startCreate() {
 		System.out.print("начал создавать ");
 	}
