@@ -2,17 +2,17 @@
 public class Room {
 	public static void appear(String name, Mest mest) {
 		switch (mest) {
-    	case он:
-    		System.out.println("Появлялся "+name);
+    	case РѕРЅ:
+    		System.out.println("РџРѕСЏРІР»СЏР»СЃСЏ "+name);
     		break;
-    	case она:
-    		System.out.print("Появлялась "+name);
+    	case РѕРЅР°:
+    		System.out.print("РџРѕСЏРІР»СЏР»Р°СЃСЊ "+name);
     		break;
-    	case оно:
-    		System.out.println("Появлялось "+name);
+    	case РѕРЅРѕ:
+    		System.out.println("РџРѕСЏРІР»СЏР»РѕСЃСЊ "+name);
     		break;
-    	case они:
-    		System.out.println("Появлялись "+name);
+    	case РѕРЅРё:
+    		System.out.println("РџРѕСЏРІР»СЏР»РёСЃСЊ "+name);
     		break;
 		}
 	}
