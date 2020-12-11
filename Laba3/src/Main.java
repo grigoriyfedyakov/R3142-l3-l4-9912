@@ -21,18 +21,18 @@ public class Main {
 		SolarBatteries solarbatteries = new SolarBatteries("солнечные батареи", Mest.они);
 		Electricity electricity = new Electricity("электроэнергия");
 		
-		kubik.print();
+		System.out.print(kubik.getName()+" ");
 		kubik.think("FAST"); 
 		System.out.print("и ");
 		kubik.startCreate();
 		Project.print("LONG");
-		cave.print();
+		System.out.print(cave.getName()+" ");
 		moon.print(Predlog.на);
 		System.out.println("");
 		
 		Project.print("THIS");
 		entrance.found();
-		wall.print();
+		System.out.print(wall.getName()+" ");
 		System.out.print("в которой ");
 		door.place();
 		System.out.print(" и ");
@@ -42,21 +42,21 @@ public class Main {
 		System.out.println("");
 		
 		wallsfloor.facing();
-		granit.print();
+		System.out.print(granit.getName()+" ");
 		System.out.print("или ");
-		otherstone.print();
+		System.out.print(otherstone.getName()+" ");
 		System.out.println("");
 		
 		System.out.print("Рядом с ");
-		cave.print();
+		System.out.print(cave.getName()+" ");
 		moon.cover(Predlog.на);
 		solarbatteries.place();
 		solarbatteries.produce();
-		electricity.print();
+		System.out.print(electricity.getName()+" ");
 		electricity.light();
 		System.out.print("и ");
 		electricity.heat();
-		cave.print();
+		System.out.print(cave.getName()+" ");
 		System.out.println("");
 		
 		inners.convert("SLOW");
@@ -73,30 +73,30 @@ public class Main {
 		Room.appear("научно-исследовательские институты", Mest.они);
 		Room.appear("подлунная железная дорога", Mest.она);
 		System.out.print(" для связи с ");
-		othercave.print();
+		System.out.print(othercave.getName()+" ");
 		System.out.println("");
 		
 		Project.improve("FAST");
 		System.out.println("");
 		
-		vintikandshpuntik.print();
+		System.out.print(vintikandshpuntik.getName()+" ");
 		vintikandshpuntik.thinkDeliever();
 		System.out.print("в ");
-		cave.print();
-		rocket.print();
+		System.out.print(cave.getName()+" ");
+		System.out.print(rocket.getName()+" ");
 		System.out.print("и ");
 		vintikandshpuntik.thinkLaunch();
-		rocket.print();
+		System.out.print(rocket.getName()+" ");
 		moon.print(Predlog.внутрь);
 		System.out.println("");
 		
-		vintikandshpuntik.print();
+		System.out.print(vintikandshpuntik.getName()+" ");
 		vintikandshpuntik.finishedThink("LONG");
 		tale.attach();
 		System.out.print(" и ");
 		wheels.attach();
 		System.out.print(" к ");
-		rocket.print();
+		System.out.print(rocket.getName()+" ");
 		System.out.print("чтобы ");
 		rocket.freeRide();
 		moon.print(Predlog.по);
