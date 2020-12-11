@@ -11,33 +11,33 @@ public class Door extends Innovations {
 	}
 	public void place() {
 		switch(mest) {
-		case он:
-			System.out.print("делался " +getName());
+		case РѕРЅ:
+			System.out.print("РґРµР»Р°Р»СЃСЏ " +getName());
 			break;
-		case она:
-			System.out.print("делалась "+getName());
+		case РѕРЅР°:
+			System.out.print("РґРµР»Р°Р»Р°СЃСЊ "+getName());
 			break;
-		case они:
-			System.out.print("устанавливались "+getName());
+		case РѕРЅРё:
+			System.out.print("СѓСЃС‚Р°РЅР°РІР»РёРІР°Р»РёСЃСЊ "+getName());
 			break;
-		case оно:
-			System.out.print("делалось "+getName());
+		case РѕРЅРѕ:
+			System.out.print("РґРµР»Р°Р»РѕСЃСЊ "+getName());
 			break;		
 		}
 	}
 	public void produce() {
 		switch(mest) {
-		case он:
-			System.out.print(" вырабатывающий ");
+		case РѕРЅ:
+			System.out.print(" РІС‹СЂР°Р±Р°С‚С‹РІР°СЋС‰РёР№ ");
 			break;
-		case она:
-			System.out.print(" вырабатывающая ");
+		case РѕРЅР°:
+			System.out.print(" РІС‹СЂР°Р±Р°С‚С‹РІР°СЋС‰Р°СЏ ");
 			break;
-		case они:
-			System.out.print(" вырабатывающие ");
+		case РѕРЅРё:
+			System.out.print(" РІС‹СЂР°Р±Р°С‚С‹РІР°СЋС‰РёРµ ");
 			break;
-		case оно:
-			System.out.print(" вырабатывающее ");
+		case РѕРЅРѕ:
+			System.out.print(" РІС‹СЂР°Р±Р°С‚С‹РІР°СЋС‰РµРµ ");
 			break;		
 		}
 	}
