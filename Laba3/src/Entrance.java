@@ -9,7 +9,7 @@ public class Entrance extends Cave {
 		return name;
 	}
 	public void found() {
-		System.out.print(getName()+" закладывался ");
+		System.out.print(getName()+" Р·Р°РєР»Р°РґС‹РІР°Р»СЃСЏ ");
 	}
 
 }
