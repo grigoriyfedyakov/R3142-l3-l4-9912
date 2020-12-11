@@ -7,7 +7,5 @@ public class Stone {
 	public String getName() {
 		return name;
 	}
-	public void print() {
-		System.out.print(getName()+" ");
-	}
+	
 }
