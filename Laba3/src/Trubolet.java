@@ -8,9 +8,9 @@ public class Trubolet implements Rider {
 		return name;
 	}
 	public void like() {
-		System.out.print("как "+getName());
+		System.out.print("РєР°Рє "+getName());
 	}
 	public void freeRide() {
-		System.out.print("кататься ");
+		System.out.print("РєР°С‚Р°С‚СЊСЃСЏ ");
 	}
 }
