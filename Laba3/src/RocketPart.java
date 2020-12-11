@@ -8,10 +8,10 @@ public class RocketPart {
 		return name;
 	}
 	public void attach() {
-		System.out.print("приделать "+getName());
+		System.out.print("РїСЂРёРґРµР»Р°С‚СЊ "+getName());
 	}
 	public void whereTake() {
-		System.out.print("где найти "+getName()+" ");
+		System.out.print("РіРґРµ РЅР°Р№С‚Рё "+getName()+" ");
 	}
 	public void print() {
 		System.out.print(getName());
