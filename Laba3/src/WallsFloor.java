@@ -9,6 +9,6 @@ public class WallsFloor extends Cave{
 		return name;
 	}
 	public void facing() {
-		System.out.print(getName()+" облицовывались ");
+		System.out.print(getName()+" РѕР±Р»РёС†РѕРІС‹РІР°Р»РёСЃСЊ ");
 	}
 }
