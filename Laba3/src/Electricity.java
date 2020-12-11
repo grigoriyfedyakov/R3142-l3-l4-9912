@@ -11,10 +11,10 @@ public class Electricity {
 		System.out.print(getName()+" ");
 	}
 	public void light() {
-		System.out.print("для освещения ");
+		System.out.print("РґР»СЏ РѕСЃРІРµС‰РµРЅРёСЏ ");
 	}
 	public void heat() {
-		System.out.print("для отопления ");
+		System.out.print("РґР»СЏ РѕС‚РѕРїР»РµРЅРёСЏ ");
 		
 	}
 }
