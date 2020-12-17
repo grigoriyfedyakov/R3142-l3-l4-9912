@@ -10,7 +10,7 @@ public class WallsFloor extends Cave{
         return name;
     }
     public void facing(String str) {
-        System.out.print(name+" oblitsovyvalis "+ str);
+        System.out.print(name+" облицовывались "+ str);
     }
 
     public boolean equals(Object o) {
